@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+
+<html dir="rtl" lang="fa"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>شبنم برگر</title>
+<link rel="icon" href="https://lh3.googleusercontent.com/aida-public/AB6AXuCqC_r6yinOYzeeHIENbLLhdn8Kw_f2dQTiuRgG6sS2-CBTY6rZ4k_LqeAJTUo2mdRTBxnEdan3Fy9txmH1X56lOkSWrSPO-ZWHqhyGaNXk_2zVjdzGePUsBTbL_jMOzeb-mksKe4EF7aX04wvN65hpTuvXygMb6FOKQ0jkb5UAcOPi_nuCQboEKGv9NRJRtaULHUNE-NMd--OjO58oAAJO0rgRcayy68Ozhnz_Y38ZPkwLTRjemW6iNlFIJOZ3_7s" type="image/png">
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;700&amp;family=Libre+Caslon+Text:wght@400;700&amp;family=Noto+Serif+Arabic:wght@600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "outline": "#8f7066",
+                        "mustard-flame": "#FF9800",
+                        "on-secondary": "#ffffff",
+                        "on-tertiary-fixed-variant": "#4d4638",
+                        "on-secondary-container": "#795c57",
+                        "on-primary-fixed": "#380d00",
+                        "secondary-fixed": "#ffdad4",
+                        "surface-container-high": "#fee2d9",
+                        "on-secondary-fixed-variant": "#5b403c",
+                        "surface-dim": "#f0d4cb",
+                        "surface-variant": "#f9ddd3",
+                        "surface-tint": "#a83900",
+                        "secondary-fixed-dim": "#e3beb8",
+                        "secondary-container": "#fed7d0",
+                        "primary-container": "#cd4700",
+                        "tertiary-fixed-dim": "#d0c5b3",
+                        "tertiary-container": "#7c7464",
+                        "surface": "#fff8f6",
+                        "primary-fixed": "#ffdbcf",
+                        "inverse-primary": "#ffb59a",
+                        "on-tertiary-fixed": "#201b10",
+                        "error-container": "#ffdad6",
+                        "surface-bright": "#fff8f6",
+                        "on-surface": "#271813",
+                        "on-tertiary": "#ffffff",
+                        "on-primary-container": "#fffbff",
+                        "error": "#ba1a1a",
+                        "primary": "#a43700",
+                        "on-secondary-fixed": "#2b1613",
+                        "surface-container-low": "#fff1ec",
+                        "grilled-charcoal": "#212121",
+                        "on-primary": "#ffffff",
+                        "primary-fixed-dim": "#ffb59a",
+                        "background": "#fff8f6",
+                        "on-background": "#271813",
+                        "on-error-container": "#93000a",
+                        "succulent-green": "#2E7D32",
+                        "tertiary-fixed": "#ede1cf",
+                        "surface-container": "#ffe9e2",
+                        "surface-container-highest": "#f9ddd3",
+                        "on-tertiary-container": "#fffbff",
+                        "tertiary": "#635b4d",
+                        "cream-bun": "#FCF8F1",
+                        "outline-variant": "#e3bfb2",
+                        "on-surface-variant": "#5a4138",
+                        "inverse-on-surface": "#ffede7",
+                        "on-error": "#ffffff",
+                        "on-primary-fixed-variant": "#802a00",
+                        "inverse-surface": "#3d2d27",
+                        "surface-container-lowest": "#ffffff",
+                        "secondary": "#745853"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    "spacing": {
+                        "touch-target-min": "48px",
+                        "section-gap": "40px",
+                        "container-margin": "20px",
+                        "gutter": "16px",
+                        "base": "8px"
+                    },
+                    "fontFamily": {
+                        "body-md": ["Be Vietnam Pro"],
+                        "label-bold": ["Be Vietnam Pro"],
+                        "display-lg": ["Libre Caslon Text"],
+                        "body-lg": ["Be Vietnam Pro"],
+                        "headline-md": ["Libre Caslon Text"],
+                        "display-lg-mobile": ["Libre Caslon Text"]
+                    },
+                    "fontSize": {
+                        "body-md": ["16px", { "lineHeight": "24px", "fontWeight": "400" }],
+                        "label-bold": ["14px", { "lineHeight": "20px", "fontWeight": "700" }],
+                        "display-lg": ["48px", { "lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "700" }],
+                        "body-lg": ["18px", { "lineHeight": "28px", "fontWeight": "400" }],
+                        "headline-md": ["32px", { "lineHeight": "40px", "fontWeight": "600" }],
+                        "display-lg-mobile": ["36px", { "lineHeight": "44px", "fontWeight": "700" }]
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        .hero-brand-title {
+            font-family: 'Noto Serif Arabic', serif;
+            font-size: clamp(3.5rem, 10vw, 6.5rem);
+            line-height: 1.15;
+            font-weight: 800;
+            letter-spacing: -0.03em;
+            color: #FCF8F1;
+            text-shadow:
+                0 3px 0 rgba(0,0,0,0.28),
+                0 8px 28px rgba(0,0,0,0.55);
+            position: relative;
+            display: inline-block;
+        }
+
+        .hero-brand-title::after {
+            content: '';
+            display: block;
+            width: 72px;
+            height: 4px;
+            margin: 14px auto 0;
+            border-radius: 999px;
+            background: #FF9800;
+            box-shadow: 0 2px 12px rgba(255,152,0,0.45);
+        }
+
+        .fade-in-up {
+            animation: fadeInUp 0.8s ease-out forwards;
+            opacity: 0;
+            transform: translateY(20px);
+        }
+        @keyframes fadeInUp {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        .delay-100 { animation-delay: 100ms; }
+        .delay-200 { animation-delay: 200ms; }
+        .delay-300 { animation-delay: 300ms; }
+        .glass-card {
+            background: rgba(42, 42, 42, 0.4);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+    </style>
+</head>
+<body class="bg-grilled-charcoal text-cream-bun font-body-md antialiased pb-24">
+<!-- TopAppBar -->
+<header class="fixed top-0 w-full z-50 bg-grilled-charcoal/80 backdrop-blur-md shadow-sm border-b border-outline-variant/30">
+<div class="flex justify-center items-center px-container-margin h-touch-target-min w-full max-w-7xl mx-auto">
+<a class="flex items-center justify-center" href="index.html" aria-label="صفحه اصلی">
+<img alt="Shabnam Burger Logo" class="h-10 w-10 object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCqC_r6yinOYzeeHIENbLLhdn8Kw_f2dQTiuRgG6sS2-CBTY6rZ4k_LqeAJTUo2mdRTBxnEdan3Fy9txmH1X56lOkSWrSPO-ZWHqhyGaNXk_2zVjdzGePUsBTbL_jMOzeb-mksKe4EF7aX04wvN65hpTuvXygMb6FOKQ0jkb5UAcOPi_nuCQboEKGv9NRJRtaULHUNE-NMd--OjO58oAAJO0rgRcayy68Ozhnz_Y38ZPkwLTRjemW6iNlFIJOZ3_7s"/>
+</a>
+</div>
+</header>
+<!-- Main Content -->
+<main>
+<!-- Hero Section -->
+<section class="relative h-screen w-full flex items-center justify-center overflow-hidden">
+<div class="absolute inset-0 z-0 bg-black/60"></div>
+<div class="absolute inset-0 z-[-1] bg-cover bg-center w-full h-full" data-alt="A mouth-watering, premium gourmet burger with melting cheese, crispy onions, and fresh lettuce, perfectly lit in a warm, rustic setting. High-quality food photography capturing a delicious, authentic meal. The mood is appetizing and nostalgic, emphasizing culinary heritage and high-end ingredients." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAhLcrutpvB9YUW8mdl95IztOr2wj-5GMAGYwKW7ylCNPUBJCmzHAfpc1uN6mP7V6FKm19Fh4fdA_ZNJFQFdm9eTfJMjD9alY-yaF01t8UNTLTnwnwFpZHLDo_AlO09GyaB5Cj0m60PutwEobAJM3egfIKEyrlLaaxaeN-juKbfs5K42ctl3TiiDNtvA2lhbFX0MDFlRVaugUBAKzkP0ypFBhox6rc6svveKrshZ6H9ZeOHLIBGTg')"></div>
+<div class="relative z-10 text-center px-container-margin flex flex-col items-center gap-6 fade-in-up ">
+<h2 class="hero-brand-title">شبنم برگر</h2>
+<p class="font-body-lg text-cream-bun/90 max-w-md mx-auto">طعم اصالت از ۱۳۵۸ تا امروز</p>
+<a class="mt-4 bg-mustard-flame text-grilled-charcoal font-label-bold px-8 py-4 rounded-xl shadow-lg hover:scale-105 active:scale-98 transition-transform duration-300 flex items-center gap-2" href="menu.html">
+<span class="material-symbols-outlined" data-icon="restaurant_menu ">restaurant_menu</span>
+                    مشاهده منو
+                </a>
+</div>
+</section>
+<!-- About Section -->
+<section class="py-section-gap px-container-margin max-w-3xl mx-auto text-center fade-in-up delay-100">
+<h3 class="font-headline-md text-mustard-flame mb-4">کیفیت بی‌نظیر، طعمی ماندگار</h3>
+<p class="font-body-md text-cream-bun/80 leading-relaxed">
+                در شبنم برگر، ما به استفاده از بهترین و تازه‌ترین مواد اولیه افتخار می‌کنیم. برگرهای گریلی ما با عشق و مهارت آماده می‌شوند تا تجربه‌ای فراموش‌نشدنی از یک وعده غذایی اصیل را برای شما به ارمغان بیاورند. کیفیت، رمز ماندگاری ما از سال ۱۳۵۸ است.
+            </p>
+</section>
+<!-- Contact Section -->
+<section class="py-section-gap px-container-margin fade-in-up delay-200 rounded-3xl mx-4 mb-8">
+<div class="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Address -->
+<div class="glass-card flex flex-col items-center text-center gap-3 p-6 rounded-2xl shadow-lg hover:border-mustard-flame/50 hover:scale-[1.02] active:scale-[0.98] transition-all duration-300 cursor-pointer">
+<div class="w-14 h-14 rounded-full bg-mustard-flame/20 text-mustard-flame flex items-center justify-center mb-2 animate-pulse">
+<span class="material-symbols-outlined text-3xl" data-icon="location_on">location_on</span>
+</div>
+<h4 class="font-label-bold text-mustard-flame text-lg">آدرس</h4>
+<p class="font-body-md text-cream-bun/80 text-sm">آذربایجان شرقی، تبریز، شریعتی جنوبی، مابین فلکه مخابرات و اوحدی، همبرگر شبنم</p>
+<a class="mt-auto text-mustard-flame font-label-bold hover:underline flex items-center gap-1" href="https://www.google.com/maps/place/Shabnam+Hamburgers(%D9%87%D9%85%D8%A8%D8%B1%DA%AF%D8%B1+%D8%B4%D8%A8%D9%86%D9%85)%E2%80%AD/@38.0557182,46.3591047,18.51z/data=!4m6!3m5!1s0x401a1b333d8b5757:0x3ed5754385f0087f!8m2!3d38.0555672!4d46.3581858!16s%2Fg%2F11hyldjlg3?entry=ttu&g_ep=EgoyMDI2MDgxOS4wIKXMDSoASAFQAw%3D%3D" target="_blank">
+                        مسیریابی
+                        <span class="material-symbols-outlined text-sm" data-icon="arrow_forward">arrow_forward</span>
+</a>
+</div>
+<!-- Phone -->
+<div class="glass-card flex flex-col items-center text-center gap-3 p-6 rounded-2xl shadow-lg hover:border-mustard-flame/50 hover:scale-[1.02] active:scale-[0.98] transition-all duration-300 cursor-pointer">
+<div class="w-14 h-14 rounded-full bg-mustard-flame/20 text-mustard-flame flex items-center justify-center mb-2 animate-pulse">
+<span class="material-symbols-outlined text-3xl" data-icon="call">call</span>
+</div>
+<h4 class="font-label-bold text-mustard-flame text-lg">تماس</h4>
+<a class="font-headline-md text-cream-bun hover:text-mustard-flame transition-colors" dir="ltr" href="tel:04133302767">041-33302767</a>
+<p class="mt-auto text-mustard-flame font-label-bold hover:underline flex items-center gap-1">برای سفارش تلفنی کلیک کنید <span class="material-symbols-outlined text-sm" data-icon="arrow_forward">arrow_forward</span></p>
+</div>
+<!-- Social -->
+<div class="glass-card flex flex-col items-center text-center gap-3 p-6 rounded-2xl shadow-lg hover:border-mustard-flame/50 hover:scale-[1.02] active:scale-[0.98] transition-all duration-300 cursor-pointer">
+<div class="w-14 h-14 rounded-full bg-mustard-flame/20 text-mustard-flame flex items-center justify-center mb-2 animate-pulse">
+<span class="material-symbols-outlined text-3xl" data-icon="photo_camera">photo_camera</span>
+</div>
+<h4 class="font-label-bold text-mustard-flame text-lg">اینستاگرام</h4>
+<a class="font-body-lg text-cream-bun hover:text-mustard-flame transition-colors" dir="ltr" href="https://instagram.com/shabnamburger" target="_blank">@shabnamburger</a>
+<p class="mt-auto text-mustard-flame font-label-bold hover:underline flex items-center gap-1">ما را در شبکه‌های اجتماعی دنبال کنید<span class="material-symbols-outlined text-sm" data-icon="arrow_forward">arrow_forward</span></p>
+</div>
+</div>
+</section>
+</main>
+<!-- BottomNavBar -->
+<nav class="fixed bottom-0 left-0 w-full flex justify-around items-center h-16 pb-safe px-4 bg-[#1a1a1a]/90 backdrop-blur-md shadow-[0_-4px_20px_rgba(0,0,0,0.3)] border-t border-white/10 rounded-t-xl z-50 md:hidden">
+<a class="flex flex-col items-center justify-center bg-mustard-flame/20 text-mustard-flame rounded-full px-5 py-1 active:scale-90 transition-transform duration-150" href="#">
+<span class="material-symbols-outlined" data-icon="home" data-weight="fill" style="font-variation-settings: 'FILL' 1;">home</span>
+<span class="font-label-bold text-xs mt-1">خانه</span>
+</a>
+<a class="flex flex-col items-center justify-center text-cream-bun/60 px-4 py-1 hover:text-mustard-flame transition-all rounded-full active:scale-90 duration-150" href="menu.html">
+<span class="material-symbols-outlined" data-icon="restaurant_menu">restaurant_menu</span>
+<span class="font-label-bold text-xs mt-1">منو</span>
+</a>
+</nav>
+<!-- Footer (Web Only) -->
+<footer class="hidden md:flex flex-col items-center gap-base text-center px-container-margin py-section-gap bg-[#111111] border-t border-white/5 w-full mt-auto">
+<img alt="Shabnam Burger Logo" class="h-20 object-contain mb-4" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAXj6-UM3BOK1QKJYajKAlXcpDV_IE41zssIeaiV5tUsZx13zFR5pKYSaoBmDh-dXBDo38AVJjvidkkYZRdlQ-HalEhLdXR6LOjpSmnjh4psqjQl32fSjLAi_FZ4DLVuRjmwDWOrsjgdgGXkHCOXkkAZ2Y3jwHFl8GlQk900pLQ7cEewvV4-qtLgAlCrc_76zY8DpgLSOHEaUPwzjhjFfeXgWqyhV5XIt5w0pNHNFuX1ZwOGDg5QBUXDmzkErPkZEY"/>
+
+<p class="font-body-md text-mustard-flame/80 mt-4">از ۱۳۵۸ تا امروز - تمام حقوق محفوظ است. ۲۰۲۶ &copy;</p>
+</footer>
+</body></html>

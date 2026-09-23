@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+
+<html dir="rtl" lang="fa"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>منوی شبنم برگر</title>
+<link rel="icon" href="https://lh3.googleusercontent.com/aida-public/AB6AXuCqC_r6yinOYzeeHIENbLLhdn8Kw_f2dQTiuRgG6sS2-CBTY6rZ4k_LqeAJTUo2mdRTBxnEdan3Fy9txmH1X56lOkSWrSPO-ZWHqhyGaNXk_2zVjdzGePUsBTbL_jMOzeb-mksKe4EF7aX04wvN65hpTuvXygMb6FOKQ0jkb5UAcOPi_nuCQboEKGv9NRJRtaULHUNE-NMd--OjO58oAAJO0rgRcayy68Ozhnz_Y38ZPkwLTRjemW6iNlFIJOZ3_7s" type="image/png">
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;700&amp;family=Libre+Caslon+Text:wght@400;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "outline": "#8f7066",
+                        "mustard-flame": "#FF9800",
+                        "on-secondary": "#ffffff",
+                        "on-tertiary-fixed-variant": "#4d4638",
+                        "on-secondary-container": "#795c57",
+                        "on-primary-fixed": "#380d00",
+                        "secondary-fixed": "#ffdad4",
+                        "surface-container-high": "#fee2d9",
+                        "on-secondary-fixed-variant": "#5b403c",
+                        "surface-dim": "#f0d4cb",
+                        "surface-variant": "#f9ddd3",
+                        "surface-tint": "#a83900",
+                        "secondary-fixed-dim": "#e3beb8",
+                        "secondary-container": "#fed7d0",
+                        "primary-container": "#cd4700",
+                        "tertiary-fixed-dim": "#d0c5b3",
+                        "tertiary-container": "#7c7464",
+                        "surface": "#fff8f6",
+                        "primary-fixed": "#ffdbcf",
+                        "inverse-primary": "#ffb59a",
+                        "on-tertiary-fixed": "#201b10",
+                        "error-container": "#ffdad6",
+                        "surface-bright": "#fff8f6",
+                        "on-surface": "#271813",
+                        "on-tertiary": "#ffffff",
+                        "on-primary-container": "#fffbff",
+                        "error": "#ba1a1a",
+                        "primary": "#a43700",
+                        "on-secondary-fixed": "#2b1613",
+                        "surface-container-low": "#fff1ec",
+                        "grilled-charcoal": "#212121",
+                        "on-primary": "#ffffff",
+                        "primary-fixed-dim": "#ffb59a",
+                        "background": "#fff8f6",
+                        "on-background": "#271813",
+                        "on-error-container": "#93000a",
+                        "succulent-green": "#2E7D32",
+                        "tertiary-fixed": "#ede1cf",
+                        "surface-container": "#ffe9e2",
+                        "surface-container-highest": "#f9ddd3",
+                        "on-tertiary-container": "#fffbff",
+                        "tertiary": "#635b4d",
+                        "cream-bun": "#FCF8F1",
+                        "outline-variant": "#e3bfb2",
+                        "on-surface-variant": "#5a4138",
+                        "inverse-on-surface": "#ffede7",
+                        "on-error": "#ffffff",
+                        "on-primary-fixed-variant": "#802a00",
+                        "inverse-surface": "#3d2d27",
+                        "surface-container-lowest": "#ffffff",
+                        "secondary": "#745853"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    "spacing": {
+                        "touch-target-min": "48px",
+                        "section-gap": "40px",
+                        "container-margin": "20px",
+                        "gutter": "16px",
+                        "base": "8px"
+                    },
+                    "fontFamily": {
+                        "body-md": ["Be Vietnam Pro"],
+                        "label-bold": ["Be Vietnam Pro"],
+                        "display-lg": ["Libre Caslon Text"],
+                        "body-lg": ["Be Vietnam Pro"],
+                        "headline-md": ["Libre Caslon Text"],
+                        "display-lg-mobile": ["Libre Caslon Text"]
+                    },
+                    "fontSize": {
+                        "body-md": ["16px", { "lineHeight": "24px", "fontWeight": "400" }],
+                        "label-bold": ["14px", { "lineHeight": "20px", "fontWeight": "700" }],
+                        "display-lg": ["48px", { "lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "700" }],
+                        "body-lg": ["18px", { "lineHeight": "28px", "fontWeight": "400" }],
+                        "headline-md": ["32px", { "lineHeight": "40px", "fontWeight": "600" }],
+                        "display-lg-mobile": ["36px", { "lineHeight": "44px", "fontWeight": "700" }]
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        body { font-family: 'Be Vietnam Pro', sans-serif; }
+        .hero-banner {
+            background-image: linear-gradient(to bottom, rgba(33,33,33,0.3), rgba(33,33,33,0.8)), url('https://lh3.googleusercontent.com/aida-public/AB6AXuAVJIrN9oDqKCxsC3BJGlficBYNdfN0tTfJ8jqSuMNbc77D7c_pBvjUcz1ylxMPGYYJN1Y7JmhbQa4bopF25WvTKXIm7BqbLRwFle7dRtzhbk9mCFiMPzaC_RcmczxNo35NyJNWR5xX7W6Bag1-hpOFxOk0THbuLT6XAbVKvzb6GXnKSLYtItrbyppgZ5LghxzKAGsfr546Bc3zYlDXsTCBDMlNcUhkOv95NhBdprGXdkptsKW6bQ');
+            background-size: cover;
+            background-position: center;
+        }
+        .scroll-smooth { scroll-behavior: smooth; }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .animate-fade-in {
+            animation: fadeIn 0.6s ease-out forwards;
+            opacity: 0;
+        }
+        @keyframes shine {
+            0% { transform: translateX(-100%); }
+            20% { transform: translateX(100%); }
+            100% { transform: translateX(100%); }
+        }
+        .animate-shine::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 50%;
+            height: 100%;
+            background: linear-gradient(to right, transparent, rgba(255,255,255,0.4), transparent);
+            transform: translateX(-100%);
+            animation: shine 3s infinite;
+        }
+        /* Custom scrollbar for horizontal lists */
+        .hide-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        .hide-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+
+        /* Floating menu category navigation */
+        .category-pill.active {
+            color: #212121;
+            background: #FF9800;
+            border-color: #FF9800;
+            box-shadow: 0 4px 14px rgba(255, 152, 0, 0.22);
+        }
+
+        .menu-category {
+            scroll-margin-top: 118px;
+        }
+
+        @media (min-width: 768px) {
+            .menu-category {
+                scroll-margin-top: 124px;
+            }
+        }
+    </style>
+</head>
+<body class="bg-grilled-charcoal text-cream-bun antialiased scroll-smooth pb-24">
+<!-- TopAppBar -->
+<header class="fixed top-0 w-full z-50 bg-grilled-charcoal/80 backdrop-blur-md shadow-sm border-b border-outline-variant/30">
+<div class="flex justify-center items-center px-container-margin h-touch-target-min w-full max-w-7xl mx-auto">
+<a class="flex items-center justify-center" href="index.html" aria-label="صفحه اصلی">
+<img alt="Shabnam Burger Logo" class="h-10 w-10 object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCqC_r6yinOYzeeHIENbLLhdn8Kw_f2dQTiuRgG6sS2-CBTY6rZ4k_LqeAJTUo2mdRTBxnEdan3Fy9txmH1X56lOkSWrSPO-ZWHqhyGaNXk_2zVjdzGePUsBTbL_jMOzeb-mksKe4EF7aX04wvN65hpTuvXygMb6FOKQ0jkb5UAcOPi_nuCQboEKGv9NRJRtaULHUNE-NMd--OjO58oAAJO0rgRcayy68Ozhnz_Y38ZPkwLTRjemW6iNlFIJOZ3_7s"/>
+</a>
+</div>
+</header>
+
+<!-- Floating Category Navigation -->
+<nav id="category-nav" aria-label="دسته‌بندی‌های منو" class="fixed top-16 left-0 w-full z-40 px-3 py-2 pointer-events-none">
+<div class="max-w-7xl mx-auto">
+<div id="category-scroller" class="pointer-events-auto flex items-center gap-2 overflow-x-auto hide-scrollbar rounded-full px-2 py-2 bg-grilled-charcoal/90 backdrop-blur-xl border border-white/10 shadow-lg snap-x snap-mandatory" style="scroll-padding-inline: 50%;">
+<a href="#cat-burgers" data-category="cat-burgers" class="category-pill shrink-0 snap-center px-4 py-2 rounded-full text-sm font-bold text-cream-bun/65 border border-white/10 bg-white/5 transition-all duration-300 hover:text-cream-bun hover:bg-white/10">همبرگرها</a>
+<a href="#cat-sandwiches" data-category="cat-sandwiches" class="category-pill shrink-0 snap-center px-4 py-2 rounded-full text-sm font-bold text-cream-bun/65 border border-white/10 bg-white/5 transition-all duration-300 hover:text-cream-bun hover:bg-white/10">ساندویچ‌ها</a>
+<a href="#cat-sausages" data-category="cat-sausages" class="category-pill shrink-0 snap-center px-4 py-2 rounded-full text-sm font-bold text-cream-bun/65 border border-white/10 bg-white/5 transition-all duration-300 hover:text-cream-bun hover:bg-white/10">سوسیس‌ها</a>
+<a href="#cat-appetizers" data-category="cat-appetizers" class="category-pill shrink-0 snap-center px-4 py-2 rounded-full text-sm font-bold text-cream-bun/65 border border-white/10 bg-white/5 transition-all duration-300 hover:text-cream-bun hover:bg-white/10">پیش‌غذاها</a>
+</div>
+</div>
+</nav>
+<!-- Hero Section -->
+<section class="mt-16 w-full h-[40vh] md:h-[50vh] hero-banner relative flex items-end justify-center pb-8 animate-fade-in" style="animation-delay: 0.1s;">
+<h2 class="font-display-lg-mobile text-display-lg-mobile text-cream-bun text-center drop-shadow-lg">منوی شبنم برگر</h2>
+</section>
+<!-- Banner -->
+<div class="bg-mustard-flame text-grilled-charcoal py-3 px-4 text-center font-label-bold text-label-bold shadow-md relative z-10 -mt-4 mx-4 rounded-lg overflow-hidden animate-shine">
+        پخت تمامی برگرها به صورت گریل شده می‌باشد
+    </div>
+<!-- Main Content -->
+<main class="max-w-7xl mx-auto px-container-margin py-section-gap space-y-12">
+
+<!-- Category: Burgers --><section id="cat-burgers" class="menu-category"><div class="flex items-center gap-4 mb-6 animate-fade-in" style="animation-delay: 0.2s;"><div class="w-12 h-12 rounded-full overflow-hidden shrink-0 border-2 border-mustard-flame"><img class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCG9aiIbKxIOit8goZwE2dCUU3z2SW4-M1ztcxS26SJiVv9WdMRkJchY5_t6xTFRaH86AKWzWRTD_JCmJQ1vpFy238aREifoxlM5Iku87HkxcokY-RqJq3Nfo86L9g-rYgE7g5qgwH9PxMWDlfCXMTWiDs0RuinEEuGsa8SliPvC6n5AEfZnSm_b8Vbg3zRH_w3Y4zru9i4AdeaF21dxeUljLCdQaLIOfM8KMZSOowT1cYByPCLLQ"/></div><div><h3 class="font-headline-md text-headline-md text-primary-fixed">همبرگرها <span class="text-outline-variant text-body-md">(Burgers)</span></h3></div></div>
+
+<h4 class="font-label-bold text-label-bold text-mustard-flame text-base mb-3">غذاهای پرحجم</h4>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-gutter mb-8">
+<article class="bg-inverse-surface rounded-xl p-4 shadow-sm border border-outline-variant/20 animate-fade-in"><h4 class="font-label-bold text-label-bold text-cream-bun text-lg mb-1">سوپر ویژه</h4><p class="font-body-md text-sm text-surface-variant">۲ عدد برگر دست ساز ۱۵۰ گرمی + ۱ برگ ژامبون مرغ + پنیر دوبل + قارچ + ۲ تکه سوسیس بلغاری</p></article>
+<article class="bg-inverse-surface rounded-xl p-4 shadow-sm border border-outline-variant/20 animate-fade-in"><h4 class="font-label-bold text-label-bold text-cream-bun text-lg mb-1">میکس برگر</h4><p class="font-body-md text-sm text-surface-variant">۱ عدد برگر دست ساز ۱۵۰ گرمی + پنیر + قارچ + ۲ تکه سوسیس بلغاری</p></article>
+<article class="bg-inverse-surface rounded-xl p-4 shadow-sm border border-outline-variant/20 animate-fade-in"><h4 class="font-label-bold text-label-bold text-cream-bun text-lg mb-1">اسپشیال</h4><p class="font-body-md text-sm text-surface-variant">۱ عدد برگر دست ساز ۱۵۰ گرمی + ۲ برگ ژامبون گوشت رباط + پنیر + قارچ</p></article>
+<article class="bg-inverse-surface rounded-xl p-4 shadow-sm border border-outline-variant/20 animate-fade-in"><h4 class="font-label-bold text-label-bold text-cream-bun text-lg mb-1">برگر چوریتسو</h4><p class="font-body-md text-sm text-surface-variant">۱ عدد برگر دست ساز ۱۵۰ گرمی + سوسیس شکاری چوریتسو</p></article>
+<article class="bg-inverse-surface rounded-xl p-4 shadow-sm border border-outline-variant/20 animate-fade-in"><h4 class="font-label-bold text-label-bold text-cream-bun text-lg mb-1">دوبل برگر با پنیر</h4><p class="font-body-md text-sm text-surface-variant">۲ عدد برگر دست ساز ۱۵۰ گرمی + پنیر</p></article>
+<article class="bg-inverse-surface rounded-xl p-4 shadow-sm border border-outline-variant/20 animate-fade-in"><h4 class="font-label-bold text-label-bold text-cream-bun text-lg mb-1">برگر با فیله مرغ</h4><p class="font-body-md text-sm text-surface-variant">۱ عدد برگر دست ساز ۱۵۰ گرمی + مغز فیله مرغ + قارچ + پنیر</p></article>
+</div>
+
+<h4 class="font-label-bold text-label-bold text-mustard-flame text-base mb-3">غذاهای حجم متوسط</h4>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-gutter">
+<article class="bg-inverse-surface rounded-xl p-4 shadow-sm border border-outline-variant/20 animate-fade-in"><h4 class="font-label-bold text-label-bold text-cream-bun text-lg mb-1">رویال برگر</h4><p class="font-body-md text-sm text-surface-variant">۱ عدد برگر دست ساز ۱۵۰ گرمی + ۱ برگ ژامبون مرغ + پنیر + ۲ تکه سوسیس بلغاری</p></article>
+<article class="bg-inverse-surface rounded-xl p-4 shadow-sm border border-outline-variant/20 animate-fade-in"><h4 class="font-label-bold text-label-bold text-cream-bun text-lg mb-1">چیز ژامبون برگر</h4><p class="font-body-md text-sm text-surface-variant">۱ عدد برگر دست ساز ۱۵۰ گرمی + ۱ برگ ژامبون مرغ + پنیر</p></article>
+<article class="bg-inverse-surface rounded-xl p-4 shadow-sm border border-outline-variant/20 animate-fade-in"><h4 class="font-label-bold text-label-bold text-cream-bun text-lg mb-1">چیز قارچ برگر</h4><p class="font-body-md text-sm text-surface-variant">۱ عدد برگر دست ساز ۱۵۰ گرمی + ۱ برگ ژامبون مرغ + پنیر</p></article>
+<article class="bg-inverse-surface rounded-xl p-4 shadow-sm border border-outline-variant/20 animate-fade-in"><h4 class="font-label-bold text-label-bold text-cream-bun text-lg mb-1">قارچ برگر</h4><p class="font-body-md text-sm text-surface-variant">۱ عدد برگر دست ساز ۱۵۰ گرمی + قارچ</p></article>
+<article class="bg-inverse-surface rounded-xl p-4 shadow-sm border border-outline-variant/20 animate-fade-in"><h4 class="font-label-bold text-label-bold text-cream-bun text-lg mb-1">چیز برگر</h4><p class="font-body-md text-sm text-surface-variant">۱ عدد برگر دست ساز ۱۵۰ گرمی + پنیر</p></article>
+<article class="bg-inverse-surface rounded-xl p-4 shadow-sm border border-outline-variant/20 animate-fade-in"><h4 class="font-label-bold text-label-bold text-cream-bun text-lg mb-1">برگر شبنم</h4><p class="font-body-md text-sm text-surface-variant">۱ عدد برگر دست ساز ۱۵۰ گرمی</p></article>
+<article class="bg-inverse-surface rounded-xl p-4 shadow-sm border border-outline-variant/20 animate-fade-in"><h4 class="font-label-bold text-label-bold text-cream-bun text-lg mb-1">برگر با زبان</h4><p class="font-body-md text-sm text-surface-variant">۱ عدد برگر دست ساز ۱۵۰ گرمی + زبان گوساله</p></article>
+<article class="bg-inverse-surface rounded-xl p-4 shadow-sm border border-outline-variant/20 animate-fade-in"><h4 class="font-label-bold text-label-bold text-cream-bun text-lg mb-1">برگر با مغز</h4><p class="font-body-md text-sm text-surface-variant">۱ عدد برگر دست ساز ۱۵۰ گرمی + مغز گوساله</p></article>
+<article class="bg-inverse-surface rounded-xl p-4 shadow-sm border border-outline-variant/20 animate-fade-in"><h4 class="font-label-bold text-label-bold text-cream-bun text-lg mb-1">مغز</h4><p class="font-body-md text-sm text-surface-variant">مغز گوساله</p></article>
+<article class="bg-inverse-surface rounded-xl p-4 shadow-sm border border-outline-variant/20 animate-fade-in"><h4 class="font-label-bold text-label-bold text-cream-bun text-lg mb-1">زبان</h4><p class="font-body-md text-sm text-surface-variant">زبان گوساله</p></article>
+<article class="bg-inverse-surface rounded-xl p-4 shadow-sm border border-outline-variant/20 animate-fade-in"><h4 class="font-label-bold text-label-bold text-cream-bun text-lg mb-1">مغز با پنیر</h4><p class="font-body-md text-sm text-surface-variant">مغز گوساله + پنیر</p></article>
+<article class="bg-inverse-surface rounded-xl p-4 shadow-sm border border-outline-variant/20 animate-fade-in"><h4 class="font-label-bold text-label-bold text-cream-bun text-lg mb-1">زبان با پنیر</h4><p class="font-body-md text-sm text-surface-variant">زبان گوساله + پنیر</p></article>
+<article class="bg-inverse-surface rounded-xl p-4 shadow-sm border border-outline-variant/20 animate-fade-in"><h4 class="font-label-bold text-label-bold text-cream-bun text-lg mb-1">مغز و زبان</h4><p class="font-body-md text-sm text-surface-variant">مغز گوساله + زبان گوساله</p></article>
+<article class="bg-inverse-surface rounded-xl p-4 shadow-sm border border-outline-variant/20 animate-fade-in"><h4 class="font-label-bold text-label-bold text-cream-bun text-lg mb-1">مغز و زبان با پنیر</h4><p class="font-body-md text-sm text-surface-variant">مغز گوساله + زبان گوساله + پنیر</p></article>
+</div>
+</section>
+
+<!-- Category: Sandwiches --><section id="cat-sandwiches" class="menu-category"><div class="flex items-center gap-4 mb-6 border-t border-outline-variant/30 pt-6 animate-fade-in"><div class="w-12 h-12 rounded-full overflow-hidden shrink-0 border-2 border-primary-fixed"><img class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDosUlZAYveYMjj9N0KM21Ni3h0VT2ku1CwXLZPWs6lA2_4_wldlQueNM6YceqSZ2PwVzxWVbha4J_o-ZojOi6Izmb2QzTdQJZVVivOVN-vuyH1q0GfbKGtX2vOiYfjE5XANnlmBIVLrZc0qeBNOkGYVmRaihYROelV-F81l_pabntseSQM0jJuuX0tt7MZvcfnsz0rM3yr9oEpicZp-LDc6GFzwd2P1QQ6P11WB7FWWdww-6xlgg"/></div><div><h3 class="font-headline-md text-headline-md text-primary-fixed">ساندویچ‌ها <span class="text-outline-variant text-body-md">(Sandwiches)</span></h3></div></div><div class="grid grid-cols-1 md:grid-cols-2 gap-gutter">
+<article class="bg-inverse-surface rounded-xl p-4 shadow-sm border border-outline-variant/20 animate-fade-in"><h4 class="font-label-bold text-label-bold text-cream-bun text-lg mb-1">ساندویچ گوشت رباط</h4><p class="font-body-md text-sm text-surface-variant">۴ برگ ژامبون گوشت رباط</p></article>
+<article class="bg-inverse-surface rounded-xl p-4 shadow-sm border border-outline-variant/20 animate-fade-in"><h4 class="font-label-bold text-label-bold text-cream-bun text-lg mb-1">ژامبون مرغ</h4><p class="font-body-md text-sm text-surface-variant">۴ برگ ژامبون مرغ</p></article>
+</div></section>
+
+<!-- Category: Sausages --><section id="cat-sausages" class="menu-category"><div class="flex items-center gap-4 mb-6 border-t border-outline-variant/30 pt-6 animate-fade-in"><div class="w-12 h-12 rounded-full overflow-hidden shrink-0 border-2 border-mustard-flame"><img class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDJ_lgKNgz-B6bvffWH8BxzZuF_ZAmiEWPF9zsb1pFf1_dW_M3Q5_6SsuglXbu1rR0-HEO27vvKt7vcS08w8cxNFd5vOeOh2-mG4UraB2SjlpVJDw1VYoEv6tdB8K9tjlRIbJhJdjnqnEDHYa3Ems-K-H8QADcJ6ECjYs9kQB2yef8Z0Ys80Slkxp0dkkGJmO0EdnIrMhW1x-nGldJa6RtdFkGhRnmywm-U_Mux2co6naFKo4jRqA"/></div><div><h3 class="font-headline-md text-headline-md text-primary-fixed">سوسیس‌ها <span class="text-outline-variant text-body-md">(Sausages)</span></h3></div></div><div class="grid grid-cols-1 md:grid-cols-2 gap-gutter">
+<article class="bg-inverse-surface rounded-xl p-4 shadow-sm border border-outline-variant/20 animate-fade-in"><h4 class="font-label-bold text-label-bold text-cream-bun text-lg mb-1">هات داگ</h4></article>
+<article class="bg-inverse-surface rounded-xl p-4 shadow-sm border border-outline-variant/20 animate-fade-in"><h4 class="font-label-bold text-label-bold text-cream-bun text-lg mb-1">هات داگ پنیری</h4><p class="font-body-md text-sm text-surface-variant">هات داگ + پنیر</p></article>
+<article class="bg-inverse-surface rounded-xl p-4 shadow-sm border border-outline-variant/20 animate-fade-in"><h4 class="font-label-bold text-label-bold text-cream-bun text-lg mb-1">هات داگ پنیر ژامبون</h4><p class="font-body-md text-sm text-surface-variant">هات داگ + پنیر + ژامبون</p></article>
+<article class="bg-inverse-surface rounded-xl p-4 shadow-sm border border-outline-variant/20 animate-fade-in"><h4 class="font-label-bold text-label-bold text-cream-bun text-lg mb-1">بلغاری</h4></article>
+<article class="bg-inverse-surface rounded-xl p-4 shadow-sm border border-outline-variant/20 animate-fade-in"><h4 class="font-label-bold text-label-bold text-cream-bun text-lg mb-1">بلغاری پنیری</h4><p class="font-body-md text-sm text-surface-variant">بلغاری + پنیر</p></article>
+<article class="bg-inverse-surface rounded-xl p-4 shadow-sm border border-outline-variant/20 animate-fade-in"><h4 class="font-label-bold text-label-bold text-cream-bun text-lg mb-1">کوکتل پنیری</h4><p class="font-body-md text-sm text-surface-variant">کوکتل + پنیر</p></article>
+<article class="bg-inverse-surface rounded-xl p-4 shadow-sm border border-outline-variant/20 animate-fade-in"><h4 class="font-label-bold text-label-bold text-cream-bun text-lg mb-1">چیز ژامبون</h4></article>
+<article class="bg-inverse-surface rounded-xl p-4 shadow-sm border border-outline-variant/20 animate-fade-in"><h4 class="font-label-bold text-label-bold text-cream-bun text-lg mb-1">ژاگو</h4><p class="font-body-md text-sm text-surface-variant">۴ تکه سوسیس بلغاری + ۱ برگ ژامبون مرغ + پنیر</p></article>
+</div></section>
+
+<!-- Category: Appetizers --><section id="cat-appetizers" class="menu-category"><div class="flex items-center gap-4 mb-6 border-t border-outline-variant/30 pt-6 animate-fade-in"><div class="w-12 h-12 rounded-full overflow-hidden shrink-0 border-2 border-primary-fixed"><img class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBcDHcMSDCD7YDe_mgLeUHaILPj1ayg8F9wnp8x6H2nQR0nSNi6_ohVO7M1paN2htvFnhdeiihzzs8V-3Yd--1bwOfIKIs-JJ3p2zxHoxR8s-7QqQu6KPe1_gfZJgzCdbDpo6rvXJMh71sElwUx_QMBEwkI3oXyMDfUPb1X_gwHB9-KRIQrFaNn11WiMBxqpru3BdUx5ykOXAVVrawUxRI4hvuN7ssts-6m8kxuw2Q61yoHVzwSLg"/></div><div><h3 class="font-headline-md text-headline-md text-primary-fixed">پیش‌غذاها <span class="text-outline-variant text-body-md">(Appetizers)</span></h3></div></div><div class="grid grid-cols-1 md:grid-cols-2 gap-gutter">
+<article class="bg-inverse-surface rounded-xl p-4 shadow-sm border border-outline-variant/20 animate-fade-in"><h4 class="font-label-bold text-label-bold text-cream-bun text-lg mb-1">سیب زمینی سرخ کرده</h4></article>
+<article class="bg-inverse-surface rounded-xl p-4 shadow-sm border border-outline-variant/20 animate-fade-in"><h4 class="font-label-bold text-label-bold text-cream-bun text-lg mb-1">سیب زمینی سرخ کرده پنیری</h4></article>
+<article class="bg-inverse-surface rounded-xl p-4 shadow-sm border border-outline-variant/20 animate-fade-in"><h4 class="font-label-bold text-label-bold text-cream-bun text-lg mb-1">سالاد ماکارونی</h4></article>
+</div></section>
+
+</main>
+<!-- BottomNavBar -->
+<nav class="fixed bottom-0 left-0 w-full flex justify-around items-center h-16 pb-safe px-4 bg-inverse-surface rounded-t-xl shadow-[0_-4px_20px_rgba(0,0,0,0.3)] z-50 md:hidden border-t border-outline-variant/20"><a class="flex flex-col items-center justify-center text-surface-variant px-4 py-1 hover:text-mustard-flame transition-all active:scale-90 transition-transform duration-150" href="index.html"><span class="material-symbols-outlined text-2xl">home</span><span class="font-label-bold text-[10px] mt-1">خانه</span></a><a class="flex flex-col items-center justify-center bg-primary text-on-primary rounded-full px-4 py-1 hover:bg-primary/80 transition-all active:scale-90 transition-transform duration-150 shadow-md" href="#"><span class="material-symbols-outlined text-2xl" style="font-variation-settings: 'FILL' 1;">restaurant_menu</span><span class="font-label-bold text-[10px] mt-1">منو</span></a></nav>
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    const nav = document.getElementById('category-scroller');
+    const pills = [...document.querySelectorAll('.category-pill')];
+    const sections = pills
+        .map(pill => document.getElementById(pill.dataset.category))
+        .filter(Boolean);
+
+    const setActive = (id, center = false) => {
+        pills.forEach(pill => {
+            const active = pill.dataset.category === id;
+            pill.classList.toggle('active', active);
+            pill.setAttribute('aria-current', active ? 'true' : 'false');
+            if (active && center) {
+                pill.scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'nearest',
+                    inline: 'center'
+                });
+            }
+        });
+    };
+
+    pills.forEach(pill => {
+        pill.addEventListener('click', event => {
+            event.preventDefault();
+            const target = document.getElementById(pill.dataset.category);
+            if (!target) return;
+
+            setActive(pill.dataset.category, true);
+
+            const headerHeight = document.querySelector('header')?.offsetHeight || 48;
+            const categoryNavHeight = document.getElementById('category-nav')?.offsetHeight || 52;
+            const top = target.getBoundingClientRect().top + window.scrollY
+                - headerHeight - categoryNavHeight - 10;
+
+            window.scrollTo({ top, behavior: 'smooth' });
+        });
+    });
+
+    const observer = new IntersectionObserver(entries => {
+        const visible = entries
+            .filter(entry => entry.isIntersecting)
+            .sort((a, b) => b.intersectionRatio - a.intersectionRatio)[0];
+
+        if (visible) setActive(visible.target.id, true);
+    }, {
+        root: null,
+        rootMargin: '-125px 0px -55% 0px',
+        threshold: [0.05, 0.2, 0.5, 0.8]
+    });
+
+    sections.forEach(section => observer.observe(section));
+
+    // Keep the active item visible when the user scrolls manually.
+    const syncActiveOnScroll = () => {
+        const marker = window.scrollY + 150;
+        let current = sections[0]?.id;
+
+        sections.forEach(section => {
+            if (section.offsetTop <= marker) current = section.id;
+        });
+
+        if (current) {
+            const activePill = pills.find(p => p.dataset.category === current);
+            if (activePill && !activePill.classList.contains('active')) {
+                setActive(current, true);
+            }
+        }
+    };
+
+    window.addEventListener('scroll', syncActiveOnScroll, { passive: true });
+    syncActiveOnScroll();
+});
+</script>
+</body></html>
